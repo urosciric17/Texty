@@ -6,5 +6,10 @@ Some key features include:<br>
 -Ability to copy and paste a piece of text <br>
 -Syntax highlighting for .c files </b> <br>
 
-# Note
+## Dependencies
+- GCC and Make
+- ncurses development headers
+
+## Note
 This is an early-alpha version containing only basic features. It is not yet stable as the program produces a crashing state under certain conditions and has multiple bugs that are being worked on.
+
