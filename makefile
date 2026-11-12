@@ -1,7 +1,7 @@
 CC=gcc
 LDFLAGS=-lncurses
 OUT=texty
-IN=texty.c
+IN=./src/texty.c
 .PHONY:clean
 $(OUT):$(IN)
 	@$(CC) $(IN) -o $(OUT) $(LDFLAGS)
